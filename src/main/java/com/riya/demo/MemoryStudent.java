@@ -1,8 +1,5 @@
 package com.riya.demo;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class MemoryStudent implements StudentRepo{
     private Map<String, Student> students = new HashMap<>();
@@ -31,8 +28,5 @@ public class MemoryStudent implements StudentRepo{
         return students.get(id);
     }
 
-    // Additional methods for generating IDs, if needed
-    private String generateId() {
-        // Implementation to generate unique IDs
-    }
+    
 }
